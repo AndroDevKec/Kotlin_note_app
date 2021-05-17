@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_15ssp"
-                android:text="@string/notes"
+                android:text="My KEC Notes"
                 android:paddingStart="@dimen/_10sdp"
                 android:paddingTop="@dimen/_10sdp"
                 app:layout_constraintTop_toTopOf="parent"

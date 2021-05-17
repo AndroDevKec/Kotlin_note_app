@@ -150,7 +150,7 @@ class NoteBottomSheetFragment : BottomSheetDialogFragment() {
             imgNote5.setImageResource(R.drawable.ic_tick)
             imgNote6.setImageResource(0)
             imgNote7.setImageResource(0)
-            selectedColor = "#0aebaf"
+            selectedColor = "#19F5FF"
 
             val intent = Intent("bottom_sheet_action")
             intent.putExtra("action","Green")
