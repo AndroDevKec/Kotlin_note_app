@@ -259,12 +259,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24.00dp"
             android:id="@+id/imgMore"
-            android:layout_width="@dimen/_24sdp"
-            android:layout_height="@dimen/_24sdp"
-            android:layout_gravity="center"
-            android:src="@drawable/img_bar" />
+            android:gravity="center"
+            android:textColor="@color/ColorWhite"
+            android:textStyle="bold"
+            android:textSize="18.00dp"
+            android:text="More options"
+
+            />
+
     </FrameLayout>
 
 
